@@ -40,7 +40,7 @@
      "properties": {
         "name": "TestApp",
         "description": "Test Application", 
-        "uri": ".My-hub.html",
+        "uri": "My-hub.html",
         "isNameConfigurable": true,
         
         "supportedScopes": [ "project_team" ]
@@ -51,7 +51,7 @@
   "files": [
     {
      "addressable": true,
-      "path": ".My-hub.html"
+      "path": "My-hub.html"
     }
     
   ],

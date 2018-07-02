@@ -11,14 +11,15 @@
   ],
   "tags": [
     "work"
-    
+
   ],
-  
+
   "links": {
     "repository": {
-      "uri": "https://github.com/Kondal9006/Assignment"
+      "type": "git",
+      "uri": "https://github.com/Kondal9006/Assignment.git"
     }
-     
+
   },
   
   "targets": [

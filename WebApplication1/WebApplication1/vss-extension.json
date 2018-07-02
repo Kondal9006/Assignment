@@ -2,7 +2,7 @@
   "manifestVersion": 1,
   "id": "TestApp",
   "version": "0.0.5",
-  "publisher": "DevMikaelKrief",
+  "publisher": "TestApplication",
   "name": "Test Application",
   "description": "Test Application.",
   "public": false,
@@ -14,17 +14,11 @@
     
   ],
   
-  
   "links": {
     "repository": {
       "uri": "https://github.com/Kondal9006/Assignment"
-    },
-    
-    
-  },
-  "repository": {
-    "type": "git",
-    "uri": "https://github.com/Kondal9006/GenpactAssignment.git"
+    }
+     
   },
   
   "targets": [
@@ -40,18 +34,18 @@
      "properties": {
         "name": "TestApp",
         "description": "Test Application", 
-        "uri": ".My-hub.html",
+        "uri": "My-hub.html",
         "isNameConfigurable": true,
         
         "supportedScopes": [ "project_team" ]
       }
-    },
+    }
        
   ],
   "files": [
     {
      "addressable": true,
-      "path": ".My-hub.html"
+      "path": "My-hub.html"
     }
     
   ],

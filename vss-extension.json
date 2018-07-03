@@ -2,60 +2,34 @@
   "manifestVersion": 1,
   "id": "TestApp",
   "version": "0.0.5",
-  "publisher": "DevMikaelKrief",
+  "publisher": "TestApplication",
   "name": "Test Application",
   "description": "Test Application.",
   "public": false,
-  "categories": [
-    "Test"
-  ],
-  "tags": [
-    "work"
-    
-  ],
-  
-  
-  "links": {
-    "repository": {
-      "uri": "https://github.com/Kondal9006/Assignment"
-    },
-    
-    
-  },
-  "repository": {
-    "type": "git",
-    "uri": "https://github.com/Kondal9006/GenpactAssignment.git"
-  },
-  
-  "targets": [
-    {
-      "id": "Microsoft.VisualStudio.Services"
-    }
-  ],
-  "contributions": [
-    {
-      "id": "TestApp",
-      "type": "ms.vss-test app",
-      
-     "properties": {
-        "name": "TestApp",
-        "description": "Test Application", 
-        "uri": "My-hub.html",
-        "isNameConfigurable": true,
-        
-        "supportedScopes": [ "project_team" ]
-      }
-    },
+    "targets": [
+        {
+            "id": "Microsoft.VisualStudio.Services"
+        }
+    ],
+    "contributions": [
+        {
+            "id": "My-hub",
+            "type": "ms.vss-web.hub",
+            "targets": [
+                "ms.vss-code-web.code-hub-group"
+            ],
+            "properties": {
+                "name": "My Hub",
+                "uri": "My-hub.html"
+            }
+        }
+    ],
+    "files": [
+        {
+            "path": "My-hub.html",
+            "addressable": true
+        }
+    ]
        
-  ],
-  "files": [
-    {
-     "addressable": true,
-      "path": "My-hub.html"
-    }
-    
-  ],
-  "scopes": [
-    "vso.work"
-  ]
+   
 }
